@@ -94,7 +94,8 @@ const clientOptions = {
   debugP: process.env.LEDGER_DEBUG,
   loggingP: process.env.LEDGER_LOGGING,
   verboseP: process.env.LEDGER_VERBOSE,
-  server: process.env.LEDGER_SERVER_URL
+  server: process.env.LEDGER_SERVER_URL,
+  createWorker: app.createWorker
 }
 
 var doneTimer
